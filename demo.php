@@ -1,4 +1,6 @@
 <?php
+//引入类文件
+require './pgsql.class.php';
 //验证单例是否正确
 $db1 = Pgsql::getInstance();
 //查询数据
